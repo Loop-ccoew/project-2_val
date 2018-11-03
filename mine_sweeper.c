@@ -11,7 +11,15 @@
  void main()
  {      int r1,c1,n=1,i,j,r,c;
   char a[4][4],b[4][4];
-
+/*char **a,**b;
+  printf("Enter how many no. of rows and columns:\n");
+  scanf("%d%d",&r,&c);
+   a=(char)malloc(sizeof(char),r);
+  for(i=0;i<r;i++)
+  {
+        *a[i]=(char)malloc(sizeof(char),c);	  
+  }*/
+  
    for(i=0;i<4;i++)
    {
     for( j=0;j<4;j++)
